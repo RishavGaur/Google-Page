@@ -1,0 +1,246 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    top: 0;
+    left: 0;
+    width: 200px;
+    position: fixed;
+    overflow: hidden;
+    background-color: #f1f1f1;
+}
+
+li {
+    text-align: center;
+}
+
+li a {
+    text-decoration: none;
+    display: block;
+    color: black;
+    padding: 8px 16px;
+    font-weight: 150rem;
+    font-size: 1.3rem;
+    font-family: sans-serif;
+}
+
+li a.active {
+    background-color: aquamarine;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+.parent {
+    position: relative;
+    opacity: 1;
+}
+
+.parent:hover {
+    opacity: 0.8;
+}
+
+.over_text {
+    position: absolute;
+    top: 0;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+.font {
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
+
+/* Button */
+
+.btn-outline {
+    background-color: rgba(255, 255, 255, 0.929);
+    color: blue;
+    border: 1px solid grey;
+    padding: 13px 16px;
+    margin: 10px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+}
+
+.btn-outline:hover {
+    border-color: #1a73e8;
+    background-color: #e4eefc;
+    color: darkcyan;
+}
+
+/* Product Section */
+
+@media screen and (max-width: 620px) {
+    #pro_d {
+        font-size: 2.5rem;
+    }
+
+    .card {
+        width: 100%rem;
+        height: 20rem;
+    }
+
+    #two {
+        width: 60%;
+    }
+}
+
+@media screen and (min-width: 620px) {
+    #pro_d {
+        font-size: 4.3rem;
+    }
+
+    #ban {
+        padding-top: 120px;
+    }
+
+    .card {
+        width: 50%;
+        height: 20rem;
+    }
+
+    .t_size2 {
+
+        text-align: center;
+    }
+
+    #two {
+        width: 30%;
+        height: 100%;
+    }
+
+}
+
+@media screen and (min-width: 980px) {
+    #pro_d {
+        font-size: 5rem;
+    }
+
+    #ban {
+        padding-top: 150px;
+    }
+
+    .t_size2 {
+
+        text-align: center;
+    }
+
+    #two {
+        width: 10%;
+        height: 100%;
+    }
+
+}
+
+@media screen and (min-width: 1220px) {
+    #pro_d {
+        font-size: 6rem;
+    }
+
+    #ban {
+        padding-top: 200px;
+    }
+
+    .card {
+        width: 40%;
+        height: 20rem;
+    }
+
+    .t_size2 {
+        text-align: left;
+        width: 80%;
+    }
+
+    #two {
+        width: 15%;
+        height: 100%;
+    }
+}
+
+.t_size {
+    font-size: 3rem;
+    /* text-align:left; */
+}
+
+.head {
+    font-size: 3.4rem;
+}
+
+/* Card */
+
+#div1 {
+    position: relative;
+    width: 294px;
+    height: 485px;
+    border: 1px solid rgb(239, 232, 232);
+}
+
+.circle {
+    position: relative;
+    margin: 20px 30px;
+    height: 200px;
+    width: 200px;
+    border: 1px solid white;
+    border-radius: 50%;
+    background-color: rgb(241, 242, 244);
+}
+
+.cir_img {
+    position: absolute;
+    top: 0px;
+    padding-top: 50px;
+    padding-left: 52px;
+}
+
+.head_title {
+    border: 1px solid #e8f0fe;
+    background-color: #e8f0fe;
+    color: #266fd5;
+    border-radius: 25px;
+    padding: 0px 10px;
+}
+
+.head_content {
+    font-size: 1.2rem;
+    color: rgb(122, 118, 118);
+}
+
+/* 2nd Card */
+
+.circle {
+    margin: 20px 46px;
+    border: 1px solid white;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: rgba(231, 225, 225, 0.5);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.img_1 {
+    background-image: url('/img/unnamed9.png');
+    background-size: 163px;
+}
+
+.img_2 {
+    background-image: url('/img/unnamed11.png');
+    background-size: 90px 90px;
+}
+
+.img_3 {
+    background-image: url('/img/unnamed7.png');
+    background-size: 90px 90px;
+}
+
+.img_4 {
+    background-image: url('/img/unnamed12.png');
+    background-size: 90px 90px;
+}
